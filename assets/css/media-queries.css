@@ -10,6 +10,7 @@
    .category2-container {
       width: 610px;
       grid-template-columns: repeat(4,1fr);      
+      
    }
 
    /* FOOTER */

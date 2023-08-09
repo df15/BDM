@@ -1,9 +1,9 @@
 
 /* GLOBALS */
 :root {
-   --color-red: #d62828;
-   --color-blue: #1a1cbd;;
-   --color-green: #007f5f;
+   --color-red: #f60100;
+   --color-blue: #1c5aa6;
+   --color-green: #028738;
    --color-white: #ffffff;
    --color-light: #adb5bd;
    --color-black: #000000;
@@ -28,6 +28,15 @@ body {
 img {
    max-width: 100%;
    height: auto;
+}
+.red {
+   color: var(--color-red);
+}
+.blue {
+   color: var(--color-blue);
+}
+.green {
+   color: var(--color-green);
 }
 .main-wrap {
    width: 100vw;
