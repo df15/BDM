@@ -1,4 +1,16 @@
 @media (min-width: 640px) {
+   /* HEADER */
+   #header-menu-icon:checked ~ .header-menu {
+      width: 250px;
+   }
+   .header-menu__item {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+   } 
+   .header-socials__items {
+      padding: 0;
+   }
+
    /* CATEGORY */
    /*
    .category1-container {
@@ -6,6 +18,7 @@
       margin-left: auto;
       margin-right: auto;
    }*/
+   /*
    .category1-container,
    .category2-container {
       width: 610px;
@@ -33,6 +46,7 @@
    }
 }
 @media (min-width: 768px) {
+   /*
    .subtitle {
       margin-left: 5rem;
    }
@@ -42,7 +56,18 @@
       width: 100%;
       padding-left: 2rem;
       padding-right: 2rem;
-   } 
+   }
+   .header-showcase h1 {
+      font-size: 9rem;
+   }
+   .header-showcase p {
+      font-size: 2.5rem;
+   }
+   .header-showcase,
+   .header-icons__search {
+      width: 100% !important;
+   }
+   /*
    .header-menu__items {
       width: 250px;
       padding: 3rem 1rem;   
@@ -52,37 +77,35 @@
       padding-bottom: 1.5rem;
       border-bottom: none;
    }
-   .header-showcase,
-   .header-icons__search {
-      width: 100% !important;
-   }
+   
 
    /* POPULAR */
+   .popular-item {
+      width: 250px;
+   }
    .popular-container {
-      max-width: 850px;
       flex-direction: row;
-      justify-content: space-between;
-      margin-left: auto;
-      margin-right: auto;
+      justify-content: center;
    }
    .popular-item {
-      width: 230px;
-      margin-top: 0;
+      margin: 2rem;
    }
-   .popular-item figcaption {
-      font-size: 1.2rem;
-   }
+   
+   /*
+   
+   
+   
 
    /* CATEGORY */   
+   /*
    .category1-container,
    .category2-container {
       width: 710px;
    }
 
-   /* FOOTER */
-
 }
 @media (min-width: 1024px) {
+   /*
    .subtitle {
       font-size: 2.5rem;
    }
@@ -94,37 +117,38 @@
    .header-showcase p {
       font-size: 3rem;
    }
+   #header-search-icon:checked ~ .header-icons__search {
+      padding: 2.5rem 1.5rem;
+   }
 
    /* POPULAR */
-   .popular-container {
-      max-width: 950px;
-   }
-   .popular-item {
-      width: 280px;
-   }
    .popular-item figcaption {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
    }
 
    /* CATEGORY */
+   /*
    .category1-container,
    .category2-container {
       width: 910px;
    }
    .category1 img {
       width: 225px;
-   }
+   }*/
 }
+
 @media (min-width: 1280px) {
    /* POPULAR */
+   /*
    .popular-container {
       max-width: 1050px;
-   }
+   }*/
    /* CATEGORY */
+   /*
    .category1-container {
       width: 1010px;
    }
    .category1 img {
       width: 250px;
-   }
+   }*/
 }
