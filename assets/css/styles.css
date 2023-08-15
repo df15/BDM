@@ -190,8 +190,9 @@ main {
    box-shadow: 1px 3px 10px var(--color-light);
 }
 .popular-item figcaption {
+   color: var(--color-blue);
    text-align: center;
-   font-size: 1rem;
+   font-size: 1rem;   
    padding-top: 1rem;
    padding-bottom: 1rem;
 }
